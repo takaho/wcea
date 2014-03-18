@@ -1,0 +1,8 @@
+AC_INIT(wcea.cxx)
+AM_INIT_AUTOMAKE(wcea.0.1.0)
+AC_PROG_CC
+AC_CHECK_HEADERS(zlib.h bam.h bgzf.h)
+AC_PROG_CXX
+AC_CHECK_SIZEOF(void*, 8)
+AC_CHECK_SIZEOF(int, 4)
+AC_OUTPUT(Makefile)
